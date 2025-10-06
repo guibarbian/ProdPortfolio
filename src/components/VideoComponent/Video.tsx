@@ -1,10 +1,9 @@
-import React, { useState } from "react";
 import styles from './style.module.css'
 
 const Video = ({src, title}: React.VideoHTMLAttributes<HTMLVideoElement>) => {
 
   return (
-    <iframe src={src} title={title}/>
+    <iframe className={styles.muted} src={src} title={title}/>
   )
 }
 
