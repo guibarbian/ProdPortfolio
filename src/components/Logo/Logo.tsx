@@ -11,7 +11,7 @@ const Logo = ({size = 'medium'}: LogoProps) => {
         big: styles.big
     }
   return (
-    <img src="public\GBP Logo.png" alt="Logo" className={classMap[size]}/>
+    <img src="../../../public/Logo de Produtor-Photoroom.png" alt="Logo" className={classMap[size]}/>
   )
 }
 
