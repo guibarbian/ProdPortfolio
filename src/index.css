@@ -1,0 +1,30 @@
+:root{
+    --black: #000000;
+    --white: #FFFFFF;
+    --light-blue: #5CE1E6;
+
+    --mix-color: #1E5AFF;
+    --master-color: #5E1EFF;
+    --prod-color: #871EFF;
+    --session-color: #AE00FF;
+
+    --roboto: "Roboto", sans-serif;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0px;
+    background-color: var(--black);
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}

@@ -1,0 +1,20 @@
+h1{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+}
+
+.small{
+    font-size: 12px;
+}
+
+.medium{
+    font-size: 24px;
+}
+
+.big{
+    font-size: 36px;
+}
+
+.huge{
+    font-size: 48px;
+}

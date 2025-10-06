@@ -1,0 +1,64 @@
+.corpo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.item{
+    width: 100%;
+}
+
+.subtitulo{
+    margin-top: 7px;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 45%;
+    font-size: 24px;
+}
+
+.provas{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.videos{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.servicos{
+    margin-top: 25px;
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cards{
+    width: 90%;
+    margin: 12px 0 0 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    color: var(--white);
+}
+
+p{
+    font-family: var(--roboto);
+    font-size: 16pxc;
+}

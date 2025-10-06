@@ -1,0 +1,31 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: var(--black);
+    margin: 0;
+    width: 100%;
+    height: clamp(1rem, 4vw, 5rem);
+    padding: 0;
+    gap: 0;
+}
+
+.item{
+    list-style: none;
+    color: var(--light-blue);
+    background-color: transparent;
+    width: fit-content;
+    font-family: Tahoma, sans-serif;
+    font-size: clamp(.5rem, 2vw, 5rem);
+    text-shadow:
+      0 0 0.5rem var(--light-blue),
+      0 0 1rem var(--light-blue);
+}
+
+.item:hover{
+    transform: scale(1.1);
+}
+
+.item input, .item button{
+    font-size: clamp(.35rem, 1vw, 5rem);
+}
