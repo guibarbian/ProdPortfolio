@@ -1,4 +1,5 @@
 import styles from './styles.module.css'
+import logoImage from '../../../public/Logo de Produtor-Photoroom.png'
 
 type LogoProps = {
     size: 'small' | 'medium' | 'big'
@@ -11,7 +12,7 @@ const Logo = ({size = 'medium'}: LogoProps) => {
         big: styles.big
     }
   return (
-    <img src="../../../public/Logo de Produtor-Photoroom.png" alt="Logo" className={classMap[size]}/>
+    <img src={logoImage} alt="Logo" className={classMap[size]}/>
   )
 }
 
