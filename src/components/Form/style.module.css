@@ -19,18 +19,17 @@ form{
 }
 
 .inputList input{
-    width: 100%;
+    width: 90%;
     height: 30px;
     border: none;
     border-radius: 4px;
     font-family: var(--roboto);
-    font-size: 20px;
-    padding: 5px 15px;
+    font-size: 1rem;
+    padding: .4rem .8rem;
 }
 
 .inputList textarea{
-    min-width: 100%;
-    max-width: 100%;
+    width: 90%;
 
     min-height: 47px;
     max-height: 52px;
@@ -38,8 +37,8 @@ form{
     border: none;
     border-radius: 4px;
     font-family: var(--roboto);
-    font-size: 20px;
-    padding: 5px 10px;
+    font-size: 1rem;
+    padding: .4rem .8rem;
 }
 
 .inputList button{
@@ -65,7 +64,7 @@ form{
 
 .links{
     margin-top: 10px;
-    width: 30%;
+    width: 70%;
     display: flex;
     justify-content: space-evenly;
 }

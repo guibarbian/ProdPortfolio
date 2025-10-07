@@ -56,7 +56,7 @@ const Formulario = () => {
                 <input
                  type="text"
                  name='name'
-                 placeholder='Digite aqui o seu nome ou o do seu projeto' 
+                 placeholder='Digite aqui o seu nome' 
                  value={formData.name}
                  onChange={handleChange}
                  required/>

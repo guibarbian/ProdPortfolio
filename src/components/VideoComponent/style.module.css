@@ -7,10 +7,6 @@ iframe{
     box-shadow: 0 0 1rem var(--black);
 }
 
-.muted{
-    pointer-events: none;
-}
-
 @media(min-height: 600px){
     iframe{
     margin-top: 20px;

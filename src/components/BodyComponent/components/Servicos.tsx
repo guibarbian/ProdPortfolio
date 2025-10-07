@@ -9,7 +9,7 @@ const Servicos = () => {
   return (
     <>
         <Section id='servicos' titulo='SERVIÇOS' content='servicos'>
-          <ul className={styles.subtitulo}>
+          <ul className={styles.responsavel}>
             <li>Serviços disponíveis e sua média de investimento</li>
           </ul>
             <ul className={styles.cards}>
@@ -55,8 +55,8 @@ const Servicos = () => {
                   <ServiceBody>
                     <p> Captação multipista de ensaios ou apresentações em estúdio, com áudio mixado e opção de vídeo profissional editado para divulgação.</p>
                     <Proposta titleString='APENAS ÁUDIO' titleColor='--session-color' descString='até 5 faixas mixadas' preco='A partir de R$1.000,00'/>
-                    <Proposta titleString='EP' titleColor='--session-color' descString='até 5 faixas mixadas e vídeos captados' preco='A partir de R$1.600,00'/>
-                    <Proposta titleString='ÁLBUM' titleColor='--session-color' descString='até 5 faixas mixadas e vídeos editados' preco='A partir de R$2.500,00'/>
+                    <Proposta titleString='ÁUDIO + VÍDEO' titleColor='--session-color' descString='até 5 faixas mixadas e vídeos captados' preco='A partir de R$1.600,00'/>
+                    <Proposta titleString='ÁUDIO + VÍDEO EDITADO' titleColor='--session-color' descString='até 5 faixas mixadas e vídeos editados' preco='A partir de R$2.500,00'/>
                   </ServiceBody>
                 </ServiceCard>
               </li>
