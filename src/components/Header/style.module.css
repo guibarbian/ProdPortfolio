@@ -1,13 +1,5 @@
 .header{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    background-color: var(--black);
-    margin: 0;
-    width: 100%;
-    height: clamp(1rem, 4vw, 5rem);
-    padding: 0;
-    gap: 0;
+    display: none;
 }
 
 .item{
@@ -18,8 +10,8 @@
     font-family: Tahoma, sans-serif;
     font-size: clamp(.5rem, 2vw, 5rem);
     text-shadow:
-      0 0 0.5rem var(--light-blue),
-      0 0 1rem var(--light-blue);
+      0 0 0.4vw var(--light-blue),
+      0 0 0.8vw var(--light-blue);
 }
 
 .item:hover{
@@ -28,4 +20,18 @@
 
 .item input, .item button{
     font-size: clamp(.35rem, 1vw, 5rem);
+}
+
+@media(min-width: 600px){
+    .header{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        background-color: var(--black);
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        gap: 0;
+        height: clamp(1rem, 4vw, 5rem);
+    }
 }

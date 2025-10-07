@@ -15,13 +15,13 @@ const BodyComponent = () => {
         </BodyListItem>
         <BodyListItem>
           <About />
-        </BodyListItem>
+        </BodyListItem>        
         <BodyListItem>
           <Portfolio />
         </BodyListItem>
         <BodyListItem>
           <Servicos />
-        </BodyListItem>
+        </BodyListItem> 
         <BodyListItem>
           <Contato />
         </BodyListItem>

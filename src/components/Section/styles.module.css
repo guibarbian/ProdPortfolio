@@ -1,5 +1,6 @@
 section{
-    height: 600px;
+    min-height: 600px;
+    height: fit-content;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -17,11 +18,23 @@ section{
     background-image: url("../../../public/AboutBackground.png");
 }
 
+.portfolio{
+    background-image: url("../../../public/PortfolioBackground.png");
+}
+
+.servicos{
+    background-image: url("../../../public/ServicosBackground.png");
+}
+
+.contato{
+    background-image: url("../../../public/ContatoBackground.png");
+}
+
 .sobre p{
-    margin: 0;
+    margin: 1rem 0;
     font-family: var(--roboto);
-    text-align: justify;
-    font-size: 32px;
+    text-align: center;
+    font-size: 1.5rem;
 }
 
 .sobre ul{
@@ -33,14 +46,25 @@ section{
     height: 100%;
 } 
 
-.portfolio{
-    background-image: url("../../../public/PortfolioBackground.png");
+.servicos p{
+    text-align: center;
+
 }
 
-.servicos{
-    background-image: url("../../../public/ServicosBackground.png");
+@media(min-width:600px){
+    .sobre p{
+    margin: 0;
+    font-family: var(--roboto);
+    text-align: justify;
+    font-size: 2rem;
 }
 
-.contato{
-    background-image: url("../../../public/ContatoBackground.png");
+.sobre ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 80%;
+    height: 36rem;
+} 
 }

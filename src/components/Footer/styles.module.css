@@ -1,9 +1,5 @@
 .mainDiv{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    height: clamp(1rem, 4vw, 5rem);
+    display: none;
 }
 
 .list{
@@ -33,4 +29,14 @@
     font-family: var(--roboto);
     color: var(--white);
     margin: 0;
+}
+
+@media(min-width:600px){
+    .mainDiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+        height: clamp(1rem, 4vw, 5rem);
+    }
 }

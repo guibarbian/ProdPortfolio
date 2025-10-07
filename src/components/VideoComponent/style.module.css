@@ -10,3 +10,14 @@ iframe{
 .muted{
     pointer-events: none;
 }
+
+@media(min-height: 600px){
+    iframe{
+    margin-top: 20px;
+    height: 373px;
+    width: 210px;
+    border-radius: 10px;
+    border-style: none;
+    box-shadow: 0 0 1rem var(--black);
+}
+}

@@ -1,3 +1,59 @@
+div{
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    color: var(--white);
+}
+
+p{
+    font-family: var(--roboto);
+    font-size: 1rem;
+}
+
+.homePropsDesktop{
+    display: none;
+}
+
+.homePropsMobile{
+    display: block;
+}
+
+.subtitulo{
+    margin-top: 0.4rem;
+    width: 100%;
+    font-family: var(--roboto);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+
+.responsavel{
+    margin-top: 0.6rem;
+    width: 80%;
+    font-family: var(--roboto);
+    align-items: center;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.provas{
+    margin-top: 0.5rem;
+}
+
+.videos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+@media (min-width: 600px){
 .corpo{
     display: flex;
     flex-direction: column;
@@ -10,13 +66,14 @@
 }
 
 .subtitulo{
-    margin-top: 7px;
-    font-family: "Roboto", sans-serif;
+    margin-top: 0.4rem;
+    font-family: var(--roboto);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     width: 45%;
-    font-size: 24px;
+    font-size: 1.5rem;
+    color: var(--white);
 }
 
 .provas{
@@ -50,15 +107,11 @@
     justify-content: space-evenly;
 }
 
-a{
-    text-decoration: none;
+.homePropsDesktop{
+    display: block;
 }
 
-li{
-    color: var(--white);
+.homePropsMobile{
+    display: none;
 }
-
-p{
-    font-family: var(--roboto);
-    font-size: 16pxc;
 }

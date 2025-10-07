@@ -7,7 +7,7 @@ const Contato = () => {
   return (
     <>
         <Section id='contato' titulo='SE INTERESSOU?' content='contato'>
-            <ul className={styles.subtitulo}>
+            <ul className={styles.responsavel}>
                 <li>Entre em contato e vamos conversar sobre o seu som!</li>
             </ul>
             <Formulario />
